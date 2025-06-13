@@ -128,20 +128,20 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8 col-lg-6">
-                    <form>
+                    <form id="contact-form" action="https://formspree.io/f/contact-form" method="POST">
                         <div class="mb-3">
                             <label class="form-label">Name</label>
-                            <input type="text" class="form-control" />
+                            <input name="name" type="text" class="form-control " />
                             <label class="form-label mt-3">Mobile</label>
-                            <input type="number" class="form-control" />
+                            <input name="mobile" type="number" class="form-control" />
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Email address</label>
-                            <input type="email" class="form-control" placeholder="name@example.com" />
+                            <input name="email" type="email" class="form-control" placeholder="name@example.com" />
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Feedback</label>
-                            <textarea class="form-control" rows="3" placeholder="Feel free to leave us a comment..."></textarea>
+                            <textarea name="feedback" class="form-control" rows="3" placeholder="Feel free to leave us a comment..."></textarea>
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary">Submit</button>
