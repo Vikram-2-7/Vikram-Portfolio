@@ -41,3 +41,7 @@
 .no-wrap {
   white-space: nowrap;
 }
+
+.spaced-name {
+  letter-spacing: 0.3em; 
+}
